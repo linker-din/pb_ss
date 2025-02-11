@@ -107,4 +107,4 @@ class Sniper:
             return txn_hash.hex()
         except Exception as e:
             logger.error(f"Problem while sniping with v2")
-            logger.error(e)
+            logger.error(g)
