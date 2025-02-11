@@ -43,4 +43,5 @@ class TelegramParser:
                         except Exception as e:
                             logger.error(f"v3 transaction is not possible, trying v2")
                             await sniper_instance.snipe_token_v2(address)
+                            logger.succes(f"gg")
 
